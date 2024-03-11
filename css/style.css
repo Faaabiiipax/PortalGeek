@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* conteudo prinical */
+
+body {
+    background-color: #000;
+}
+
+.conteudo {
+    width: 100%;
+    height: auto;
+    max-width: 1700px;
+    margin: auto;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    margin: auto;
+    position: fixed;
+}
+
+nav {
+    width: 1200px;
+    height: 100px;
+    background-color: #29282ed5;
+    border-radius: 10px;
+}
+
+.section-inicial {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 800px;
+    background-image: url("/imagens/sage-valorant-1920x1080-9107.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container-texto {
+    width: 1000px;
+    height: 300px;
+    background-color: #29282ea7;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: #FFF;
+    padding: 25px;
+}
+
+.paragrafo {
+    margin-top: 15px;
+    text-align: justify;
+}
+
+/* section 2 */
+
+.section-secundaria {
+    display: flex;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+
+}
+
+.container-cards {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    height: 400px;
+    width: 300px;
+    background-color: #29282E;
+    border-radius: 10px;
+}
+
+.card-img {
+    height: 80%;
+    width: 100%;
+
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-nome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    background-color: rgb(87, 210, 219);
+    border-radius: 10px;
+}
+
+.card-nome a{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+}
+/*noticia1*/
+.section-inicial1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 800px;
+    background-image: url("/imagens/fort.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
