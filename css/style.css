@@ -131,3 +131,39 @@ nav {
     background-position: center;
     background-size: cover;
 }
+/*noticia2*/
+.section-inicial2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 800px;
+    background-image: url("/imagens/zelda.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/*noticia3*/
+.section-inicial3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 800px;
+    background-image: url("/imagens/souls.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/*noticia3*/
+.section-inicial4 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 800px;
+    background-image: url("/imagens/image-The-Witcher.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
